@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipédia</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <header>  
+        <div class="logo">
+            <img alt ="logomarca wikipedia" src="https://logos-world.net/wp-content/uploads/2020/09/Wikipedia-Emblem.png" width="200"/>
+        </div>
+    </header>
+    <div class="bar"></div>
+
+    <div class="content">
+        <div class="sidebar">
+            <h2>Linguagens de Programação</h2>
+            <ul>
+                <li><a href="index.html">Javascript</a></li>
+                <li><a href="python.html">Phyton</a></li>
+                <li><a href="php.html">PHP</a></li>
+                <li><a href="java.html">Java</a></li>
+            </ul>
+        </div>
+    <main>
+        <div class="main">
+            <h1 id="introducao">Tudo Sobre Javascript</h1>
+                <p>JavaScript (frequentemente abreviado como JS) é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma (protótipos, orientado a objeto, imperativo e funcional). Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web. JavaScript permite páginas da Web interativas e, portanto, é uma parte essencial dos aplicativos da web. A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.</p>
+                <p>É atualmente a principal linguagem para programação client-side em navegadores web. É também bastante utilizada do lado do servidor através de ambientes como o node.js.</p>
+                <p>Como uma linguagem multiparadigma, o JavaScript suporta estilos de programação orientados a eventos, funcionais e imperativos (incluindo orientado a objetos e prototype-based), apresentando recursos como fechamentos (closures) e funções de alta ordem comumente indisponíveis em linguagens populares como Java e C++. Possui APIs para trabalhar com texto, matrizes, datas, expressões regulares e o DOM, mas a linguagem em si não inclui nenhuma E/S, como instalações de rede, armazenamento ou gráficos, contando com isso no ambiente host em que está embutido.</p>
+                <p>Foi originalmente implementada como parte dos navegadores web para que scripts pudessem ser executados do lado do cliente e interagissem com o usuário sem a necessidade deste script passar pelo servidor, controlando o navegador, realizando comunicação assíncrona e alterando o conteúdo do documento exibido, porém os mecanismos JavaScript agora estão incorporados em muitos outros tipos de software host, incluindo em servidores e bancos de dados da Web e em programas que não são da Web, como processadores de texto e PDF, e em tempo de execução ambientes que disponibilizam JavaScript para escrever aplicativos móveis e de desktop, incluindo widgets de área de trabalho.</p>
+
+            <h2 id="adoção">Adoção pela Microsoft</h2>
+                <p>As tecnologias de script da Microsoft, incluindo VBScript e JScript, foram lançadas em 1996. JScript, uma implementação de engenharia reversa do JavaScript da Netscape, fazia parte do Internet Explorer 3. O JScript também estava disponível para scripts do servidor no Internet Information Server. O Internet Explorer 3 também incluiu o primeiro suporte da Microsoft para CSS e várias extensões para HTML, mas em cada caso a implementação era visivelmente diferente daquela encontrada no Netscape Navigator na época. Essas diferenças tornaram difícil para os designers e programadores fazerem um único site funcionar bem em ambos os navegadores, levando ao uso dos logotipos "melhor visualizado no Netscape" e "melhor visualizado no Internet Explorer" que caracterizaram esses primeiros anos de guerras de navegadores. O JavaScript começou a adquirir a reputação de ser um dos obstáculos a uma Web de plataforma cruzada e baseada em padrões. Alguns desenvolvedores assumiram a difícil tarefa de tentar fazer com que seus sites funcionassem em ambos os principais navegadores, mas muitos não podiam arcar com o tempo. Com o lançamento do Internet Explorer 4, a Microsoft introduziu o conceito de HTML Dinâmico, mas as diferenças nas implementações de linguagem e nos diferentes e proprietários Modelos de Objeto de Documento permaneceram e foram obstáculos à adoção generalizada de JavaScript na Web.</p>
+
+            <h2 id="marca">Marca comercial</h2>
+                <p>"JavaScript" é uma marca comercial da Oracle Corporation nos Estados Unidos. Ele é usado sob licença para tecnologia inventada e implementada pela Netscape Communications e entidades atuais, como a Fundação Mozilla.</p>
+
+            <h2 id="acessibilidade">Acessibilidade</h2>
+                <p>Assumindo que o usuário não tenha desabilitado sua execução, pode-se utilizar JavaScript do lado cliente para melhorar a experiência de um usuário com deficiência física ou visual.</p>
+                <p>Leitores de tela utilizados por pessoas cegas ou com visão parcial podem detectar a presença de JavaScript e dessa forma acessar e ler o DOM da página depois que seus scripts foram executados. Nestes casos recomenda-se que o HTML seja o mais conciso, navegável e rico semanticamente possível, tendo a página scripts ou não. Não se recomenda que o código JavaScript de uma página seja totalmente dependente dos eventos provenientes do mouse já que usuários que não conseguem ou optam por não usar o mouse não estarão aptos a colher os benefícios de tal código. Da mesma forma, embora hyperlinks e webforms possam ser navegados e operados do teclado, JavaScript voltado para acessibilidade não deve requerer um teclado para acessar tais eventos. JavaScript conta com eventos independentes do dispositivo de usuário tais como onfocus e onchange que são mais recomendados na maioria dos casos.</p>
+                <p>Não se recomenda utilizar JavaScript de um jeito que seja confuso ou desorientador para qualquer usuário da internet. Por exemplo, usar JavaScript para alterar ou desabilitar a funcionalidade normal de um navegador, tal como mudar a forma com que o botão direito ou o evento de atualização funcionam, deve ser evitado. Da mesma forma, eventos de interrupção que o usuário pode não estar ciente reduzem a sensação de controle do usuário, assim como scripts inesperados que mudam o conteúdo da página.</p>
+                <p>Frequentemente o processo de fazer páginas web complexas tão acessíveis quanto possível se transforma em um problema não trivial, onde certas decisões são assunto de debate e opinião. Entretanto, tecnologias assistivas estão constantemente evoluindo e novas recomendações e informações relevantes vem sendo continuamente publicadas na web.</p>
+            
+            <h2 id="ferramentas">Ferramentas de Desenvolvimento</h2>
+                <p>Dentro do JavaScript, o acesso a um depurador se torna inestimável ao desenvolver programas grandes e não triviais. Pode haver diferenças de implementação entre os vários navegadores (especialmente dentro do DOM), portanto, é útil ter acesso a um depurador para cada um dos navegadores que um aplicativo Web tem como destino.</p>
+                <p>Os depuradores de scripts são integrados em muitos navegadores comuns, como o Internet Explorer, o Firefox, o Safari, o Google Chrome e o Opera.
+                    Além das Ferramentas nativas para desenvolvedores do Internet Explorer, três outros depuradores estão disponíveis para o Internet Explorer: O Microsoft Visual Studio possui o maior número de recursos dos três, seguido de perto pelo Microsoft Script Editor (um componente do Microsoft Office), e finalmente depurador de scripts da Microsoft gratuito. O Microsoft Visual Web Developer Express gratuito fornece uma versão limitada da funcionalidade de depuração do JavaScript no Microsoft Visual Studio.</p>
+                <p>Em comparação com o Internet Explorer, o Firefox tem um conjunto mais abrangente de ferramentas para desenvolvedores, que inclui também um depurador. Versões antigas do Firefox sem essas ferramentas usavam um addon do Firefox chamado Firebug, ou o antigo depurador do Venkman. O Web Inspector WebKit inclui um depurador JavaScript, que é usado no Safari. Uma versão modificada chamada Blink DevTools é usada no Google Chrome. O Node.js possui o Node Inspector, um depurador interativo que se integra ao Blink DevTools. O Opera inclui um conjunto de ferramentas chamado Dragonfly.</p>
+                <p>Além do software de computador nativo, há o ambiente de desenvolvimento integrado (IDEs) JavaScript on-line, que possui recursos de depuração que são gravados em JavaScript e criados para serem executados na Web. Um exemplo é o programa JSLint, desenvolvido por Douglas Crockford, que escreveu extensivamente sobre o idioma. O JSLint verifica o código JavaScript para conformidade com um conjunto de padrões e diretrizes. Muitas bibliotecas para JavaScript, como o three.js, fornecem links para o código de demonstração que pode ser editado pelos usuários. Os códigos de demonstração também são usados ​​como uma ferramenta pedagógica por instituições como a Khan Academy para permitir que os alunos experimentem escrever código em um ambiente onde possam ver a saída de seus programas, sem precisar de configuração além do navegador da web.</p>          
+            
+            <h2 id="bibliografia">Bibliografia</h2>
+                <ul>
+                    <li>Tom Negrino, Dori Smith, JavaScript Para World Wide Web, Tradução 3a. Edição, Visual QuickStart Guide, ano 1999, Editora Campus, ISBN 85-352-0622-1</li>
+                    <li>Arman Danesh, Teach Yourself JavaScript in a Week, ano 1996, Editora: Sams Net, ISBN 1-57521-073-8</li>
+                    <li>David Flanagan, Javascript O Guia Definitivo, 6a. edição, ano 2013, Editora O´Reilly, ISBN 978-85-65837-19-4</li>
+                </ul>
+        </div>  
+    </main>
+        <div class="anchors">
+            <figure>
+                <img height="150" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/260px-Unofficial_JavaScript_logo_2.svg.png" alt="Logomarca do javascript">
+                <figcaption>Logomarca do Javascript</figcaption>
+            </figure>
+            <h2>Neste Artigo</h2>
+            <ul>
+                <li><a href="#introducao">Introdução</a></li>
+                <li><a href="#adoção">Adoção pela Microsoft</a></li>
+                <li><a href="#marca">Marca Comercial</a></li>
+                <li><a href="#acessibilidade">Acessibilidade</a></li>
+                <li><a href="#ferramenta">Ferramentas de Desenvolvimento</a></li>
+                <li><a href="#bibliografia">Bibliografia</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+    </footer>
+    </div>
+</body>
+</html>
